@@ -8,7 +8,7 @@ Un outil développé en Go pour lire des données depuis un automate **Schneider
 
 - Connexion automatique à l'automate (ex: `192.168.2.105`)
 - Lecture des valeurs binaires/analogiques sur des instances spécifiques
-- Enregistrement des données avec horodatage dans **data_log.csv
+- Enregistrement des données avec horodatage dans **data_log.csv**
 - Déploiement possible dans un conteneur Docker
 - Gestion automatique des erreurs et reconnexion
 
@@ -17,7 +17,7 @@ Un outil développé en Go pour lire des données depuis un automate **Schneider
 ## 📦 Prérequis
 
 - [Docker](https://www.docker.com/) installé
-- L’automate Schneider configuré pour accepter les connexions Ethernet/IP
+- L’automate Schneider configuré pour accepter les connexions **Ethernet/IP**
 - Chemin vers un fichier `data_log.csv` local si on veut monter un volume Docker
 
 ---
