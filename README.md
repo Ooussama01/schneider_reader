@@ -33,15 +33,13 @@ docker run -d --name reader-instance `
   -v "C:\chemin\vers\data_log.csv:/app/data_log.csv" `
   schneider-reader
 
+---
 
-🧱 Structure du projet
+## 🧱 Structure du projet
 
 schneider_reader/
 ├── main.go          # Code source principal (Go)
 ├── Dockerfile       # Instructions de build Docker
 └── data_log.csv     # Fichier généré automatiquement avec les mesures
 
-👨‍💻 Auteur
-Oussama Ouachani
-Ingénieur en automatisme & robotique
-https://www.github.com/Ooussama01
+
