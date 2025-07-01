@@ -42,6 +42,6 @@ schneider_reader/
 └── data_log.csv     # Fichier généré automatiquement avec les mesures
 
 👨‍💻 Auteur
-**Oussama Ouachani**
+Oussama Ouachani
 Ingénieur en automatisme & robotique
-https://github.com/Ooussama01
+https://www.github.com/Ooussama01
