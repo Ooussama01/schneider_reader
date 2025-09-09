@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug main.go (Delve 1.25+)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "C:/Users/oouachani/Documents/Historian_OPCUA/main.go",
+      "dlvToolPath": "C:/Users/oouachani/go/bin/dlv.exe",
+      "dlvFlags": ["--check-go-version=false"]
+    },
+    {
+      "name": "Run main.go (sans debug)",
+      "type": "go",
+      "request": "launch",
+      "mode": "run",
+      "program": "C:/Users/oouachani/Documents/Historian_OPCUA/main.go"
+    }
+  ]
+}

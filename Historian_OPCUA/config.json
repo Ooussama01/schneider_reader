@@ -1,0 +1,11 @@
+{
+  "endpoint": "opc.tcp://127.0.0.1:48010",
+  "nodeIds": [
+    "ns=3;s=Demo.History.Historian_1",
+    "ns=3;s=Demo.History.Historian_2"
+  ],
+  "start": "2019-08-22T00:00:00Z",
+  "end": "2019-08-24T23:59:59Z",
+  "limit": 10000,
+  "bounds": false
+}
