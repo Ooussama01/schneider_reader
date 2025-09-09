@@ -32,7 +32,7 @@ func main() {
 }
 
 func runLogger() {
-	conn, err := go_ethernet_ip.NewTCP("192.168.2.105", nil)
+	conn, err := go_ethernet_ip.NewTCP("172.16.85.105", nil)
 	if err != nil {
 		log.Printf("❌ Connexion échouée : %v", err)
 		return
@@ -66,11 +66,15 @@ func runLogger() {
 	for {
 		data := readAssemblyAttribute(conn, 100, 3)
 
-		if len(data) >= 12 {
+		if len(data) >= 4 {
 			qwe0 := binary.LittleEndian.Uint16(data[4:6])
 			qwe1 := binary.LittleEndian.Uint16(data[6:8])
 			qwe2 := binary.LittleEndian.Uint16(data[8:10])
 			qwe3 := binary.LittleEndian.Uint16(data[10:12])
+			qwe4 := binary.LittleEndian.Uint16(data[12:14])
+			qwe5 := binary.LittleEndian.Uint16(data[14:16])
+			qwe6 := binary.LittleEndian.Uint16(data[16:18])
+			qwe7 := binary.LittleEndian.Uint16(data[18:20])
 
 			now := time.Now()
 			yearNumber, weekNumber := now.ISOWeek()
@@ -83,8 +87,11 @@ func runLogger() {
 				fmt.Sprintf("%d", qwe1),
 				fmt.Sprintf("%d", qwe2),
 				fmt.Sprintf("%d", qwe3),
+				fmt.Sprintf("%d", qwe4),
+				fmt.Sprintf("%d", qwe5),
+				fmt.Sprintf("%d", qwe6),
+				fmt.Sprintf("%d", qwe7),
 			}
-
 			writer.Write(record)
 			writer.Flush()
 

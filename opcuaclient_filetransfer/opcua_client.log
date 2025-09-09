@@ -1,0 +1,572 @@
+2025/09/03 15:05:46 main.go:330: Failed to load certificate: open ./certs/certificate.pem: The system cannot find the path specified.
+2025/09/03 15:05:46 main.go:432: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:05:46 main.go:103: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/03 15:09:14 main.go:330: Failed to load certificate: open ./certs/certificate.pem: The system cannot find the path specified.
+2025/09/03 15:09:15 main.go:432: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:09:15 main.go:103: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/03 15:10:05 main.go:432: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:10:06 main.go:103: Client run failed: failed to connect: The certificate may not be used for the requested operation. StatusBadCertificateUseNotAllowed (0x80180000)
+2025/09/03 15:10:33 main.go:432: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:10:34 main.go:103: Client run failed: failed to connect: The certificate may not be used for the requested operation. StatusBadCertificateUseNotAllowed (0x80180000)
+2025/09/03 15:39:02 main.go:432: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:39:03 main.go:132: Connected to OPC UA server
+2025/09/03 15:39:03 main.go:139: Completed copying pertu files
+2025/09/03 15:40:15 main.go:435: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 15:40:16 main.go:132: Connected to OPC UA server
+2025/09/03 15:40:16 main.go:139: Completed copying pertu files
+2025/09/03 16:35:54 main.go:105: Client run failed: failed to get endpoints: dial tcp 172.16.85.25:48010: i/o timeout
+2025/09/03 16:36:10 main.go:105: Client run failed: failed to get endpoints: dial tcp 172.16.85.25:48010: i/o timeout
+2025/09/03 16:36:14 main.go:437: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 16:36:16 main.go:134: Connected to OPC UA server
+2025/09/03 16:36:16 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 16:36:23 main.go:437: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 16:36:24 main.go:134: Connected to OPC UA server
+2025/09/03 16:36:24 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 16:37:47 main.go:437: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 16:37:48 main.go:134: Connected to OPC UA server
+2025/09/03 16:37:49 main.go:141: Completed copying pertu files
+2025/09/03 17:17:45 main.go:437: Using config:
+Endpoint: opc.tcp://HISTORIAN:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 17:17:46 main.go:134: Connected to OPC UA server
+2025/09/03 17:17:47 main.go:141: Completed copying pertu files
+2025/09/03 18:12:24 main.go:440: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:12:25 main.go:134: Connected to OPC UA server
+2025/09/03 18:12:25 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:13:01 main.go:440: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:13:02 main.go:134: Connected to OPC UA server
+2025/09/03 18:13:02 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:14:05 main.go:442: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:14:05 main.go:134: Connected to OPC UA server
+2025/09/03 18:14:05 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:15:18 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:15:18 main.go:134: Connected to OPC UA server
+2025/09/03 18:15:18 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:15:38 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:15:39 main.go:134: Connected to OPC UA server
+2025/09/03 18:15:39 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:16:10 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:16:10 main.go:134: Connected to OPC UA server
+2025/09/03 18:16:10 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:18:18 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:18:19 main.go:134: Connected to OPC UA server
+2025/09/03 18:18:19 main.go:105: Client run failed: failed to copy pertu files: no pertu files found
+2025/09/03 18:19:50 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/03 18:19:50 main.go:134: Connected to OPC UA server
+2025/09/03 18:19:50 main.go:141: Completed copying pertu files
+2025/09/04 15:16:13 main.go:441: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:16:13 main.go:105: Client run failed: failed to connect: EOF
+2025/09/04 15:17:05 main.go:334: Failed to load certificate: open C:\Users\oouachani\AppData\Roaming\unifiedautomation\uaexpert\PKI\own\certs\uaexpert_local.pem: Le fichier spécifié est introuvable.
+2025/09/04 15:17:05 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:17:05 main.go:105: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/04 15:18:02 main.go:334: Failed to load certificate: open C:\Users\oouachani\AppData\Roaming\unifiedautomation\uaexpert\PKI\own\certs\uaexpert_local.pem: Le fichier spécifié est introuvable.
+2025/09/04 15:18:02 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:18:02 main.go:105: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/04 15:19:26 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:19:26 main.go:105: Client run failed: failed to connect: EOF
+2025/09/04 15:24:52 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:24:52 main.go:105: Client run failed: failed to connect: EOF
+2025/09/04 15:37:29 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:37:30 main.go:105: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/04 15:38:54 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:38:54 main.go:105: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/04 15:40:28 main.go:327: failed to write DER certificate to own/certs/cert.der: open own/certs/cert.der: Le chemin d’accès spécifié est introuvable.
+2025/09/04 15:41:56 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 15:41:56 main.go:105: Client run failed: failed to connect: EOF
+2025/09/04 16:18:31 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:18:32 main.go:105: Client run failed: failed to connect: EOF
+2025/09/04 16:18:48 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:18:48 main.go:105: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/04 16:19:27 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:19:27 main.go:105: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/04 16:20:01 main.go:436: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:20:01 main.go:132: Connected to OPC UA server
+2025/09/04 16:20:01 main.go:139: Completed copying pertu files
+2025/09/04 16:41:36 main.go:448: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:41:36 main.go:132: Connected to OPC UA server
+2025/09/04 16:41:36 main.go:139: Completed copying pertu files
+2025/09/04 16:42:05 main.go:448: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:42:05 main.go:132: Connected to OPC UA server
+2025/09/04 16:42:05 main.go:139: Completed copying pertu files
+2025/09/04 16:44:43 main.go:448: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:44:43 main.go:132: Connected to OPC UA server
+2025/09/04 16:44:43 main.go:139: Completed copying pertu files
+2025/09/04 16:59:18 main.go:437: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 16:59:18 main.go:133: Connected to OPC UA server
+2025/09/04 16:59:18 main.go:140: Completed copying pertu files
+2025/09/04 17:07:16 main.go:446: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 17:07:16 main.go:133: Connected to OPC UA server
+2025/09/04 17:07:16 main.go:140: Completed copying pertu files
+2025/09/04 17:08:35 main.go:425: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 17:08:36 main.go:133: Connected to OPC UA server
+2025/09/04 17:08:36 main.go:140: Completed copying pertu files
+2025/09/04 17:09:59 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 17:09:59 main.go:133: Connected to OPC UA server
+2025/09/04 17:09:59 main.go:140: Completed copying pertu files
+2025/09/04 17:16:38 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/04 17:16:38 main.go:133: Connected to OPC UA server
+2025/09/04 17:16:38 main.go:140: Completed copying pertu files
+2025/09/05 09:01:43 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 09:01:43 main.go:133: Connected to OPC UA server
+2025/09/05 09:01:43 main.go:140: Completed copying pertu files
+2025/09/05 09:47:10 main.go:312: Failed to load certificate: open C:/Users/oouachani/Documents/opcuaclient_filetransfer/certs/private_key_local.pem: Le fichier spécifié est introuvable.
+2025/09/05 09:47:11 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 09:47:11 main.go:106: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/05 09:54:27 main.go:312: Failed to load certificate: open C:/Users/oouachani/Documents/opcuaclient_filetransfer/certs/private_key_local.pem: Le fichier spécifié est introuvable.
+2025/09/05 09:54:27 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 09:54:27 main.go:106: Client run failed: failed to connect: opcua: invalid channel config: Security policy 'http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss' requires a private key
+2025/09/05 09:57:15 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 09:57:15 main.go:133: Connected to OPC UA server
+2025/09/05 09:57:15 main.go:140: Completed copying pertu files
+2025/09/05 10:01:57 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:01:58 main.go:133: Connected to OPC UA server
+2025/09/05 10:01:58 main.go:140: Completed copying pertu files
+2025/09/05 10:08:35 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:08:36 main.go:133: Connected to OPC UA server
+2025/09/05 10:08:36 main.go:140: Completed copying pertu files
+2025/09/05 10:13:50 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:13:50 main.go:133: Connected to OPC UA server
+2025/09/05 10:13:50 main.go:140: Completed copying pertu files
+2025/09/05 10:16:50 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:16:50 main.go:133: Connected to OPC UA server
+2025/09/05 10:16:50 main.go:140: Completed copying pertu files
+2025/09/05 10:20:14 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:20:14 main.go:133: Connected to OPC UA server
+2025/09/05 10:20:14 main.go:140: Completed copying pertu files
+2025/09/05 10:23:06 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:23:06 main.go:133: Connected to OPC UA server
+2025/09/05 10:37:45 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:37:45 main.go:133: Connected to OPC UA server
+2025/09/05 10:37:45 main.go:140: Completed copying pertu files
+2025/09/05 10:38:11 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:38:11 main.go:133: Connected to OPC UA server
+2025/09/05 10:38:11 main.go:140: Completed copying pertu files
+2025/09/05 10:38:30 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:38:30 main.go:133: Connected to OPC UA server
+2025/09/05 10:38:30 main.go:140: Completed copying pertu files
+2025/09/05 10:38:39 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:38:39 main.go:133: Connected to OPC UA server
+2025/09/05 10:38:39 main.go:140: Completed copying pertu files
+2025/09/05 10:43:09 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:43:10 main.go:133: Connected to OPC UA server
+2025/09/05 10:43:10 main.go:140: Completed copying pertu files
+2025/09/05 10:43:21 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:43:21 main.go:133: Connected to OPC UA server
+2025/09/05 10:43:21 main.go:140: Completed copying pertu files
+2025/09/05 10:43:44 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:43:44 main.go:133: Connected to OPC UA server
+2025/09/05 10:43:44 main.go:140: Completed copying pertu files
+2025/09/05 10:46:55 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:46:55 main.go:133: Connected to OPC UA server
+2025/09/05 10:46:55 main.go:140: Completed copying pertu files
+2025/09/05 10:52:48 main.go:439: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:52:48 main.go:133: Connected to OPC UA server
+2025/09/05 10:52:48 main.go:140: Completed copying pertu files
+2025/09/05 10:55:54 main.go:452: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:55:54 main.go:133: Connected to OPC UA server
+2025/09/05 10:55:54 main.go:140: Completed copying pertu files
+2025/09/05 10:56:21 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 10:56:21 main.go:133: Connected to OPC UA server
+2025/09/05 10:56:21 main.go:140: Completed copying pertu files
+2025/09/05 11:16:28 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:16:28 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 11:19:29 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:19:29 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 11:20:23 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:20:23 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 11:20:56 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:20:56 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 11:22:37 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:22:37 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:23:55 main.go:415: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:23:55 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:24:55 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:24:56 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:25:42 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:25:42 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 11:25:58 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:25:58 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:26:30 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:26:31 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:28:28 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:28:28 main.go:106: Client run failed: failed to connect: The user identity token is valid but the server has rejected it. StatusBadIdentityTokenRejected (0x80210000)
+2025/09/05 11:29:32 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:29:32 main.go:133: Connected to OPC UA server
+2025/09/05 11:29:32 main.go:140: Completed copying pertu files
+2025/09/05 11:44:35 main.go:414: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:44:35 main.go:133: Connected to OPC UA server
+2025/09/05 11:44:35 main.go:140: Completed copying pertu files
+2025/09/05 11:47:06 main.go:417: Using config:
+Endpoint: opc.tcp://127.0.0.1:48010
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, MessageSecurityModeSignAndEncrypt
+Auth mode : UserTokenTypeCertificate
+2025/09/05 11:47:07 main.go:133: Connected to OPC UA server
+2025/09/05 11:47:07 main.go:140: Completed copying pertu files
+2025/09/05 14:46:49 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:46:49 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:47:32 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:47:32 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:49:13 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:49:13 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:51:10 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:51:10 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:53:37 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:53:37 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:54:38 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:54:38 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:55:56 main.go:454: Error reading password: Descripteur non valide
+2025/09/05 14:58:04 main.go:454: Error reading password: Descripteur non valide
+2025/09/05 14:58:33 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:58:34 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 14:59:36 main.go:417: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 14:59:36 main.go:106: Client run failed: failed to connect: EOF
+2025/09/05 15:00:06 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:00:06 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:00:06 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:00:06 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:01:01 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:01:01 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:01:01 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:01:01 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:01:13 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:01:13 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:01:13 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:01:13 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:01:43 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:01:43 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:01:43 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:01:43 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:02:19 main.go:454: Error reading password: Descripteur non valide
+2025/09/05 15:04:14 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:04:14 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:04:14 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:04:14 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:04:39 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:04:39 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:04:39 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:04:39 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:05:10 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:05:10 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:05:10 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:05:10 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:06:05 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:06:05 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:06:05 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:06:05 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:06:33 main.go:500: Valid options for the endpoint are:
+2025/09/05 15:06:34 main.go:501:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:06:34 main.go:502: -----------------------|-----------------|---------------------------
+2025/09/05 15:06:34 main.go:522:                   None | None            | (Anonymous)
+2025/09/05 15:35:36 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:35:36 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:35:36 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:35:36 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:36:05 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:36:05 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:36:05 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:36:05 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:36:35 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:36:35 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:36:35 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:36:35 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:37:20 main.go:104: Client run failed: failed to get endpoints: dial tcp 192.168.2.102:48010: connectex: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+2025/09/05 15:37:27 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:37:27 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:37:27 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:37:27 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:37:48 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:37:48 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:37:48 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:37:48 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:39:10 main.go:499: Valid options for the endpoint are:
+2025/09/05 15:39:10 main.go:500:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:39:10 main.go:501: -----------------------|-----------------|---------------------------
+2025/09/05 15:39:10 main.go:521:                   None | None            | (Anonymous)
+2025/09/05 15:40:01 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:40:01 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:40:01 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:40:01 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:40:26 main.go:498: Valid options for the endpoint are:
+2025/09/05 15:40:26 main.go:499:          sec-policy    |    sec-mode     |      auth-modes
+2025/09/05 15:40:26 main.go:500: -----------------------|-----------------|---------------------------
+2025/09/05 15:40:26 main.go:520:                   None | None            | (Anonymous)
+2025/09/05 15:40:57 main.go:104: Client run failed: failed to get endpoints: dial tcp 192.168.2.102:48400: connectex: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+2025/09/05 15:41:36 main.go:415: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:41:36 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:42:37 main.go:415: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:42:37 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:42:52 main.go:415: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:42:52 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:47:20 main.go:406: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:47:20 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:49:07 main.go:406: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:49:08 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:49:39 main.go:406: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:49:39 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:51:32 main.go:406: Using config:
+Endpoint: opc.tcp://192.168.2.102:4840
+Security mode: http://opcfoundation.org/UA/SecurityPolicy#None, MessageSecurityModeNone
+Auth mode : UserTokenTypeAnonymous
+2025/09/05 15:51:32 main.go:104: Client run failed: failed to connect: EOF
+2025/09/05 15:53:08 main.go:143: Connected to OPC UA server
+2025/09/05 15:53:08 main.go:150: Completed copying pertu files
+2025/09/05 15:54:57 main.go:143: Connected to OPC UA server
+2025/09/05 15:54:57 main.go:150: Completed copying pertu files
+2025/09/05 15:56:20 main.go:143: Connected to OPC UA server
+2025/09/05 15:56:20 main.go:150: Completed copying pertu files

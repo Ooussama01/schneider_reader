@@ -1,17 +1,17 @@
-# 1. Utilise une image Go légère
+# Use a minimal base image
 FROM golang:1.22-alpine
 
-# 2. Dossier de travail dans le conteneur
+# Set working directory
 WORKDIR /app
 
-# 3. Copie les fichiers Go dans le conteneur
+# Copy code
 COPY . .
 
-# 4. Installe les dépendances Go
+# Download dependencies
 RUN go mod tidy
 
-# 5. Compile ton code en exécutable
-RUN go build -o logger main.go
+# Build Go app
+RUN go build -o app main.go
 
-# 6. Lancer l’exécutable
-CMD ["./logger"]
+# Run the app
+CMD ["./app"]
