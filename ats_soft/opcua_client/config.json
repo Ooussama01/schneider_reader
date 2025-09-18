@@ -1,0 +1,13 @@
+{
+  "HISTORIAN": false,
+  "REFERENCE": "Brunei",
+  "RETENTION": 3,
+  "TIMEZONE": "Europe/Paris",
+  "end": "2025-09-11T08:59:59Z",
+  "endpoint": "opc.tcp://127.0.0.1:48010",
+  "limit": 1000,
+  "nodeIds": [
+    "ns=3;s=Demo.History.Historian_1"
+  ],
+  "start": "2010-09-11T07:00:00Z"
+}
